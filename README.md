@@ -2,9 +2,9 @@
 Applications that allows a user to filter their image and receive  their image back with the new filter applied. Application is coded in Java and is focused on using Threads, each image being filtered is controlled by a thread. Once a process  is complete a new thread is created for the next process  to not allow bottle neck to occur.
 
 ## Table of contents.
-[User Guide](#user-guide)
-[Application Features](#application-features)
-[Technologies & Software](#technologies-&-software)
+* [User Guide](#user-guide)
+* [Application Features](#application-features)
+* [Software Used](#software-used)
 
 ## User Guide
 1. Run Application: Open a command line and run the ''' $ java -jar oop.jar ''' .
@@ -21,7 +21,7 @@ Applications that allows a user to filter their image and receive  their image b
 * Once the ImageDirectoryReader Thread dies a 3rd Thread is made that runs  class ImageConverter that filters the image and wait for it to come back(die)  to continue (join()).
 * If user enter "4" the main Thread is stopped (stop()) and application is finished.
 
-## Technologies & Software
+## Software Used
 * Java version 16
 * Eclipse IDE
 * Png/jpeg images.
